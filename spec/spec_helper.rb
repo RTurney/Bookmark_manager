@@ -104,6 +104,6 @@ require 'sinatra'
 require 'capybara'
 require 'rspec'
 
-Capybara.app = Bookmark 
+Capybara.app = BookmarkManager 
 
 end
