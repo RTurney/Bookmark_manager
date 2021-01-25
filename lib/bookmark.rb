@@ -1,9 +1,9 @@
 class Bookmark
-  def self.bookmark_list
+  def self.all
     [
-      "https://github.com/RTurney/Bookmark_manager" ,
-      "https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/03.md" ,
-      "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links"
+      "https://www.youtube.com" ,
+      "https://www.google.co.uk" ,
+      "https://www.bbc.co.uk"
     ]
   end
 end
