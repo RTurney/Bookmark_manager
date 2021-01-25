@@ -9,3 +9,6 @@
 
 Domain modelling sheet:
 https://docs.google.com/document/d/1K6v9FamjWfP_zbuEVz4bkXWPAzFOsBsuaZXNNXVCtm8/edit?usp=sharing
+
+Domain model sequence diagram:
+https://playground.diagram.codes/d/sequence
