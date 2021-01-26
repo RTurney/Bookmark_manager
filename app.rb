@@ -1,6 +1,7 @@
 require 'sinatra'
 require_relative './lib/bookmark'
 
+
 class BookmarkManager < Sinatra::Base
 
   get '/test' do
@@ -14,6 +15,11 @@ class BookmarkManager < Sinatra::Base
   get '/bookmarks' do
     @list = Bookmark.all
     erb(:bookmarks)
+  end
+
+  post '/confirmation' do
+    @url = params[:url]
+    erb(:confirmation)
   end
 
   run! if app_file == $0
